@@ -1,0 +1,101 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #edf5ff;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 5px;
+    font-family: IBM Plex Mono, monospace;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#quote {
+    font-style: italic;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.hero {
+    font-family: IBM Plex Mono, monospace;
+    color: white;
+    text-shadow: 0 0 1px white;
+    background-image: url(images/IBM_Plex.png);
+    background-size: cover;
+    padding: 0 10;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#highlight {
+    background: #0043ce;
+    padding: 5px;
+    border-radius: 5px;
+    border: white solid 3px;
+}
+
+.four-types {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.thought {
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: solid 10px #a6c8ff;
+    border-right: solid 10px #a6c8ff;
+}
+
+#avatar {
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.textbox {
+    padding: 5px;
+}
